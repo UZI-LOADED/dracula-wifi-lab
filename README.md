@@ -1,3 +1,25 @@
+🧪 Dashboard Features (Current):
+🔘 Menu-based launcher with simple numbered input
+
+📡 Monitor mode & scanning
+
+🎯 Handshake capture & deauth
+
+🧠 Auto-cracking all .cap files using rockyou.txt
+
+🗂️ Saves cracked output to cracked-log.txt
+
+🌐 Launches dashboard.html with one click
+
+----------------------------------------------------------------------------------------------------------------
+
+Run this in terminal:--------->>>   chmod +x dracula.sh
+Launch It
+
+From inside the folder-------->>>   ./dracula.sh
+
+=================================================================================================================
+
 🩸 𝔇𝔯𝔞𝔠𝔲𝔩𝔞 𝔏𝔞𝔟𝔰 — Quick Command Rituals
 🧛 Start Monitor Mode
 
